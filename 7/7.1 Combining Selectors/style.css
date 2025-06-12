@@ -1,0 +1,21 @@
+/* group selector separated by comma */
+h1, h2{
+    color:blueviolet;
+}
+/* parent > child : only one deep */
+
+.box > .done
+{color:firebrick}
+
+/* descendent selector - selector selector - a space is needed in selectors- can select any descendent */
+
+.box li{
+    color:blue
+}
+
+/* chaining selector : selector1selector2- no space between selectors - meaning apply where all selectors are true */
+
+li.done
+{color:seagreen}
+
+ul p.done{font-size: 0.5rem;}
